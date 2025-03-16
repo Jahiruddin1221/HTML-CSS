@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.hero_section{
+    background-image: url(other/software.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_container{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+
+}
+
+.lg_text{
+    font-size: 70px;
+    font-weight: 300px;
+
+}
+
+.black_box{
+    background-color: #000;
+    padding: 20px;
+}
+
+.black_box h2{
+    color: white;
+    font-weight: 400px;
+    font-size: 70px;
+}
+
+.work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    
+}
+
+.card{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px(1, 1, 1, 0.2);
+    
+}
+

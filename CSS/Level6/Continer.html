@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex box direction</title>
+    <style>
+        #div{
+            margin: 20px;
+            padding: 10px;
+            height: 500px;
+            width: 500px;
+            border: 3px solid;
+            background-color: aquamarine;
+
+            display: flex;
+            flex-direction:row-reverse;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex Continer</h1>
+
+    <div id="div">
+        <div id="box1" class="box">Flex Item 1</div>
+        <div id="box2" class="box">Flex Item 2</div>
+        <div id="box3" class="box">Flex Item 3</div>
+        <div id="box4" class="box">Flex Item 4</div>
+        <div id="box4" class="box">Flex Item 5</div>
+        <div id="box4" class="box">Flex Item 6</div>
+    </div>
+</body>
+</html>
